@@ -1,0 +1,278 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+  height: 41px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  top: 24%;
+}
+
+.safe-connection-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 100px;
+}
+
+.safe-connection {
+  color: #6D6B6B;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.top-header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ededf6;
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+span {
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.x {
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.divider {
+  background-color: #ededf6;
+  height: 32px;
+  width: 1px;
+  margin: 10px;
+}
+
+.progress-div {
+  height: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ededf6;
+  top: 30px;
+  left: 0;
+  right: 0;
+}
+
+.progress {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+  position: absolute;
+  left: 50;
+}
+
+.progress-bar-text {
+  font-size: 16px;
+  color: #B4B4B4;
+}
+
+.step-bar {
+  position: absolute;
+  top: 24%;
+  left: 36%;
+  display: flex;
+  justify-content: flex-end;
+  width: 28%;
+  height: 2px;
+  background-color: #1089ff;
+  align-items: center;
+}
+
+.step {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #1089ff;
+}
+
+.main-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 131px;
+}
+
+.payment-options {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.receipt-container {
+  width: 50%;
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ededf6;
+  border-radius: 5px;
+  width: 500px;
+  height: 148px;
+}
+
+.option1 {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ededf6;
+  align-items: center;
+  height: 74px;
+}
+
+.option2 {
+  display: flex;
+  flex-direction: row;
+  height: 74px;
+}
+
+.opt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 14px;
+}
+
+h4 {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.recommended {
+  color: white;
+  background-color: #2aaa8a;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 7px;
+  margin-left: 25px;
+}
+
+.cards {
+  width: 150px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 27px;
+  gap: 4px;
+}
+
+.frame {
+  width: 500px;
+  height: 463px;
+  margin-top: 60px;
+  margin-left: 75px;
+}
+
+button {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  background-color: #455bed;
+  width: 100%;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+p {
+  color: grey;
+}
+
+.receipt {
+  width: 450px;
+  height: 258px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 54%;
+  top: 10%;
+  font-family: sans-serif;
+}
+
+.upper-div {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.medium-div {
+  border-top: 1px #B4B4B4 solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-div {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px #B4B4B4 solid;
+  padding-top: 12px;
+}
+
+.back {
+  position: absolute;
+  left: 110px;
+  top: 20px;
+  font-weight: 600;
+}
+
+.arrow {
+  position: absolute;
+  left: 85px;
+  top: 35px;
+  color: grey;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 5px;
+}
+.information {
+  font-size: 14px;
+  margin: 4px;
+  color: #6D6B6B;
+}
+
+input {
+  margin-left: 17px;
+}
+
+input:checked {
+  accent-color: #1089ff;
+}
